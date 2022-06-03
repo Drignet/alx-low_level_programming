@@ -1,0 +1,31 @@
+#tdio.h>
+  
+
+
+/**                                                                                                                                                    
+
+ * main -Entry point                                                                                                                                   
+
+ *                                                                                                                                                     
+
+ * Return: Always 0 (Success)                                                                                                                          
+
+ */
+
+
+
+int main(void)
+  
+{
+  
+  char charType;
+  
+  int intType;
+  
+  long int longIntType;
+  
+  long long int longLongIntType;
+  
+  float floatType;
+  
+                                                                        
