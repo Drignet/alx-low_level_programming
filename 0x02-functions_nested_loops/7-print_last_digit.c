@@ -2,13 +2,19 @@
 
 /**
  * print_last_digit - prints last digit of a number
- * @c: integer input
- *
- * Return: Always 0 (Success)
+ * @nld: number to input
+ * Return: value of the last digit
  *
  */
 
-int print_last_digit(int c)
+int print_last_digit(int nld)
 {
-return (c % 10);
+int pld;
+pld = (nld % 10);
+if (pld < 0)
+{
+pld = (-1 * pld);
+}
+_putchar(pld + '0');
+return (pld);
 }
