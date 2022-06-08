@@ -9,7 +9,7 @@
  *
  */
 
-int add(int a, b)
+int add(int a, int b)
 {
 return (a + b);
 }
