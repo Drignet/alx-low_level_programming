@@ -13,9 +13,9 @@ for (m = 0; m < 10; m++)
 {
 for (n = 0; n < 15; n++)
 {
-_putchar(n + '0');
+_putchar((n / 10) + '0');
 }
-_putchar('\n');
+_putchar((n % 10) +);
 }
 _putchar('\n');
 }
