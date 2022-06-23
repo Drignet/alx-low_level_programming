@@ -20,3 +20,4 @@ int _pow_recursion(int x, int y)
 
 	res *= _pow_recursion(x, y - 1);
 	return (res);
+}
